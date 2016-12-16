@@ -109,7 +109,7 @@
                         <div class="carousel-caption">
                             <img src="images/stars.png" alt="">
                             <h2>Entrada a la Sierra</h2>
-                            <p>Un lugar rodeado de naturaleza, hubicado en la sierra nororiental del estado de Puebla</p>
+                            <p><strong>Un lugar rodeado de naturaleza, ubicado en la Sierra Nororiental del Estado de Puebla</strong></p>
                         </div>
                     </div>
                     <div class="item">
@@ -117,7 +117,7 @@
                         <div class="carousel-caption">
                             <img src="images/stars.png" alt="">
                             <h2>Siéntete como en casa</h2>
-                            <p></p>
+                            <p><strong>Contamos con cabañas, temazcal, salón de usos multiples y bellos pueblos mágicos alrededor.</strong></p>
                         </div>
                     </div>
                     <div class="item">
@@ -125,7 +125,7 @@
                         <div class="carousel-caption">
                             <img src="images/stars.png" alt="">
                             <h2>El lugar perfecto para descansar</h2>
-                            <p></p>
+                            <p><strong>Siéntete como en casa rodeado de bellos paisajes en medio de la naturaleza</strong></p>
                         </div>
                     </div>
                 </div>
@@ -201,10 +201,9 @@
                                     <figure class="mg-room">
                                         <img src="images/cabañas/galeria/4.jpg" alt="img11" class="img-responsive">
                                         <figcaption>
-                                        <h2>Cabaña 1</h2>
-                                        <div class="mg-room-rating"><i class="fa fa-star"></i> 5.00</div>
-                                        <div class="mg-room-price">$249<sup>.99/Noche</sup></div>
-                                        <p>adversantur probatum iudicante indicaverunt repugnantibus.</p>
+                                        <h2>Cabaña 1 habitación/2 personas</h2>
+                                        <div class="mg-room-price">$300<sup>.00/Noche</sup></div>
+                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
                                         <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
                                         <a href="#" class="btn btn-main">Reservar</a>
                                         </figcaption>
@@ -214,10 +213,9 @@
                                     <figure class="mg-room">
                                         <img src="images/cabañas/galeria/5.jpg" alt="img11" class="img-responsive">
                                         <figcaption>
-                                        <h2>Cabaña 2</h2>
-                                        <div class="mg-room-rating"><i class="fa fa-star"></i> 5.00</div>
-                                        <div class="mg-room-price">$249<sup>.99/Noche</sup></div>
-                                        <p>adversantur probatum iudicante indicaverunt repugnantibus.</p>
+                                        <h2>Cabaña 2 habitaciones/4 personas</h2>
+                                        <div class="mg-room-price">$800<sup>.00/Noche</sup></div>
+                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
                                         <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
                                         <a href="#" class="btn btn-main">Reservar</a>
                                         </figcaption>
@@ -227,10 +225,9 @@
                                     <figure class="mg-room">
                                         <img src="images/cabañas/galeria/6.jpg" alt="img11" class="img-responsive">
                                         <figcaption>
-                                        <h2>Cabaña 3</h2>
-                                        <div class="mg-room-rating"><i class="fa fa-star"></i> 5.00</div>
-                                        <div class="mg-room-price">$249<sup>.99/Noche</sup></div>
-                                        <p>adversantur probatum iudicante indicaverunt repugnantibus.</p>
+                                        <h2>Cabaña 3 habitaciones/6 personas</h2>
+                                        <div class="mg-room-price">$1000<sup>.00/Noche</sup></div>
+                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
                                         <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
                                         <a href="#" class="btn btn-main">Reservar</a>
                                         </figcaption>
@@ -253,14 +250,23 @@
                     <div class="row">
                         <div class="col-md-7">
                             <h2 class="mg-sec-left-title">Acerca de Entrada a la Sierra</h2>
-                            <p>Bienvenid@ a Cabañas Entrada a la Sierra, un lugar rodeado de naturaleza, hubicado en la sierra nororiental del estado de Puebla. <br><br>
-                                Estamos esperándote para brindarte hospedaje en comodas cabañas, comida típica de la región, salón para eventos sociales y/o de capacitación. <br> <br>
-                            Ven y visitemos nuestro hermoso y heróico municipio de Zacapoaxtla, lugar de la batalla del 5 de mayo, lleno de atractivos naturales y de diversidad cultural. ¡Ven ya!</p>
+                            <p>Bienvenidos a Cabañas Entrada a la Sierra, un lugar rodeado de naturaleza, ubicado en la sierra nororiental del estado de Puebla. <br><br>
+                            Entrada a la Sierra es un punto de encuentro y de partida, pero sobre todo una experiencia de disfrute responsable: Culturas y Naturaleza en armonía. <br><br>
+                            Estamos esperándote para brindarte hospedaje en cómodas cabañas, comida típica de la región, salón para eventos sociales y/o de capacitación.  <br><br>
+                            Ven y visitemos nuestro hermoso y heroico municipio de Zacapoaxtla, lugar de la batalla del 5 de mayo, lleno de atractivos naturales y de diversidad cultural. ¡Ven ya!
+                            </p>
                         </div>
                         <div class="col-md-5">
-                            <div class="video-responsive">
+                                <br>
                                <img src="images/cabañas/galeria/2.jpg" alt="" class="img-responsive">
-                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="mg-sec-left-title">¿Dónde estamos?</h2>
+                            <br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15092.626595817006!2d-98.1794781!3d18.968688!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdadde0b99c1be5f8!2sHerramientas+Cela!5e0!3m2!1ses-419!2smx!4v1479425045172" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -271,7 +277,7 @@
                         <div class="col-md-12">
                             <div class="mg-sec-title">
                                 <h2>Nuestras comodidaes</h2>
-                                <p>These best rooms chosen by our customers</p>
+                                <p>Siéntete como en casa, no te faltará nada</p>
                             </div>
                             <div class="row">
                                 <div class="col-sm-4">
@@ -286,7 +292,7 @@
                                 <div class="col-sm-4">
                                     <div class="mg-feature">
                                         <div class="mg-feature-icon-title">
-                                            <i class="fa fa-cogs"></i>
+                                            <i class="fa fa-cutlery"></i>
                                             <h3>Servicio al cuarto</h3>
                                         </div>
                                         <p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
@@ -295,8 +301,8 @@
                                 <div class="col-sm-4">
                                     <div class="mg-feature">
                                         <div class="mg-feature-icon-title">
-                                            <i class="fa fa-car"></i>
-                                            <h3>Alquila un auto</h3>
+                                            <i class="fa fa-bath"></i>
+                                            <h3>Servicio de Temazcal</h3>
                                         </div>
                                         <p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
                                     </div>
@@ -324,10 +330,60 @@
                                 <div class="col-sm-4">
                                     <div class="mg-feature">
                                         <div class="mg-feature-icon-title">
-                                            <i class="fa fa-cogs"></i>
+                                            <i class="fa fa-wifi"></i>
                                             <h3>Wi-Fi gratis</h3>
                                         </div>
                                         <p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mg-sec-title">
+                                <h2>Nuestros servicios</h2>
+                                <p>Siéntete como en casa, no te faltará nada</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="mg-feature">
+                                        <div class="mg-feature-icon-title">
+                                            <i class="fa fa-clock-o"></i>
+                                            <h3>Salón de usos múltiples</h3>
+                                        </div>
+                                        <p>Contamos con instalaciones adecuadas para cualquier tipo de evento social, institucional, empresarial o grupal</p>
+                                        <br>
+                                        <img src="http://www.upranet.com.ar/_esp/wp-content/uploads/2010/07/DOMPO-024.jpg" alt="" class="img-responsive" style="height: 241px; width: 100%">
+                                        <br>
+                                        <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="mg-feature">
+                                        <div class="mg-feature-icon-title">
+                                            <i class="fa fa-bath"></i>
+                                            <h3>Banquete</h3>
+                                        </div>
+                                        <p>Celebra tus eventos sociales, institucionales o empresariales con un banquete para 100 personas</p>
+                                        <br><br>
+                                        <img src="http://asset4.zankyou.com/images/mag-post/215/cfa7/685//-/mx/wp-content/uploads/2010/08/Sorprende-a-tus-invitados-con-un-banquete-de-bodas-muy-original-300x201.jpg" alt="" class="img-responsive">
+                                        <br>
+                                        <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="mg-feature">
+                                        <div class="mg-feature-icon-title">
+                                            <i class="fa fa-phone"></i>
+                                            <h3>Temazcal</h3>
+                                        </div>
+                                        <p>Renúevate con un baño de temazcal</p>
+                                        <br><br><br>
+                                        <img src="https://www.maspormas.com/wp-content/uploads/2016/07/temazcal-1.jpg" alt="" class="img-responsive">
+                                        <br>
+                                        <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
                                     </div>
                                 </div>
                             </div>
