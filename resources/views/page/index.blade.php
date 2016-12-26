@@ -204,7 +204,7 @@
                                         <h2>Cabaña 1 habitación/2 personas</h2>
                                         <div class="mg-room-price">$300<sup>.00/Noche</sup></div>
                                         <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
-                                        <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
+                                        <a data-toggle="modal" href='#detalles_cabañas' class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
                                         <a href="#" class="btn btn-main">Reservar</a>
                                         </figcaption>
                                     </figure>
@@ -251,14 +251,14 @@
                         <div class="col-md-7">
                             <h2 class="mg-sec-left-title">Acerca de Entrada a la Sierra</h2>
                             <p>Bienvenidos a Cabañas Entrada a la Sierra, un lugar rodeado de naturaleza, ubicado en la sierra nororiental del estado de Puebla. <br><br>
-                            Entrada a la Sierra es un punto de encuentro y de partida, pero sobre todo una experiencia de disfrute responsable: Culturas y Naturaleza en armonía. <br><br>
-                            Estamos esperándote para brindarte hospedaje en cómodas cabañas, comida típica de la región, salón para eventos sociales y/o de capacitación.  <br><br>
-                            Ven y visitemos nuestro hermoso y heroico municipio de Zacapoaxtla, lugar de la batalla del 5 de mayo, lleno de atractivos naturales y de diversidad cultural. ¡Ven ya!
+                                Entrada a la Sierra es un punto de encuentro y de partida, pero sobre todo una experiencia de disfrute responsable: Culturas y Naturaleza en armonía. <br><br>
+                                Estamos esperándote para brindarte hospedaje en cómodas cabañas, comida típica de la región, salón para eventos sociales y/o de capacitación.  <br><br>
+                                Ven y visitemos nuestro hermoso y heroico municipio de Zacapoaxtla, lugar de la batalla del 5 de mayo, lleno de atractivos naturales y de diversidad cultural. ¡Ven ya!
                             </p>
                         </div>
                         <div class="col-md-5">
-                                <br>
-                               <img src="images/cabañas/galeria/2.jpg" alt="" class="img-responsive">
+                            <br>
+                            <img src="images/cabañas/galeria/2.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <br><br>
@@ -286,45 +286,41 @@
                                             <i class="fa fa-clock-o"></i>
                                             <h3>Recepción las 24 horas</h3>
                                         </div>
-                                        <p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="mg-feature">
                                         <div class="mg-feature-icon-title">
                                             <i class="fa fa-cutlery"></i>
-                                            <h3>Servicio al cuarto</h3>
+                                            <h3>Servicio a la cabaña</h3>
                                         </div>
-                                        <p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="mg-feature">
                                         <div class="mg-feature-icon-title">
                                             <i class="fa fa-bath"></i>
-                                            <h3>Servicio de Temazcal</h3>
+                                            <h3>Seguridad</h3>
                                         </div>
-                                        <p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
                                     </div>
                                 </div>
                             </div>
+                            <br>
                             <div class="row">
                                 <div class="col-sm-4">
                                     <div class="mg-feature">
                                         <div class="mg-feature-icon-title">
                                             <i class="fa fa-phone"></i>
-                                            <h3>Llamadas para despertarte</h3>
+                                            <h3>Zona céntrica y fácil acceso a pueblos mágicos</h3>
                                         </div>
-                                        <p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="mg-feature">
                                         <div class="mg-feature-icon-title">
                                             <i class="fa fa-coffee"></i>
-                                            <h3>Café y Té</h3>
+                                            <h3>Pagos con tarjeta</h3>
                                         </div>
-                                        <p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
@@ -333,7 +329,6 @@
                                             <i class="fa fa-wifi"></i>
                                             <h3>Wi-Fi gratis</h3>
                                         </div>
-                                        <p>Didicisset labore vitium referenda labor peccant integre turpe est tantopere, eius defuturum sua dolorum.</p>
                                     </div>
                                 </div>
                             </div>
@@ -357,7 +352,14 @@
                                         <br>
                                         <img src="http://www.upranet.com.ar/_esp/wp-content/uploads/2010/07/DOMPO-024.jpg" alt="" class="img-responsive" style="height: 241px; width: 100%">
                                         <br>
+                                        <p>
+                                            Nuestro servicio TODO INCLUIDO cuenta con mobiliario para 100 personas, e incluye: mantelería, losa, cocina para calentar y un enfriador. El costo de la renta del salón por 8 horas es de: $3500.00 y cada hora extra tiene un costo de $400.00.
+                                            <br><br>
+                                            Nuestro servicio de café incluye: café, té, leche y galletas por $30.00 p/p.
+                                        </p>
+                                        <!--
                                         <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
+                                        -->
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
@@ -370,7 +372,18 @@
                                         <br><br>
                                         <img src="http://asset4.zankyou.com/images/mag-post/215/cfa7/685//-/mx/wp-content/uploads/2010/08/Sorprende-a-tus-invitados-con-un-banquete-de-bodas-muy-original-300x201.jpg" alt="" class="img-responsive">
                                         <br>
+                                        <p>
+                                            Celebra tus eventos sociales, institucionales o empresariales con un banquete para 100 personas (incluye gastos de salón por tiempo máximo de 8 horas, comida en tres tiempos y servicio de meseros).
+                                            <br><br>
+                                            Todo por $10 000.00 <br>
+                                            Pregunta por nuestras opciones de platillos.
+                                            <br><br>
+                                            Nota: No incluye bebidas alcohólicas ni equipo de sonido <br>
+                                            Paquete fiesta con banquete por $100 p/p (Ocupación mínima de 80 personas).
+                                        </p>
+                                        <!--
                                         <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
+                                        -->
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
@@ -383,7 +396,14 @@
                                         <br><br><br>
                                         <img src="https://www.maspormas.com/wp-content/uploads/2016/07/temazcal-1.jpg" alt="" class="img-responsive">
                                         <br>
+                                        <p>
+                                            Nuestro servicio TODO INCLUIDO cuenta con mobiliario para 100 personas, e incluye: mantelería, losa, cocina para calentar y un enfriador. El costo de la renta del salón por 8 horas es de: $3500.00 y cada hora extra tiene un costo de $400.00.
+                                            <br><br>
+                                            Nuestro servicio de café incluye: café, té, leche y galletas por $30.00 p/p. Pregunta por nuestro servicio de banquete o descarga la información aquí.
+                                        </p>
+                                        <!--
                                         <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
+                                        -->
                                     </div>
                                 </div>
                             </div>
@@ -392,6 +412,156 @@
                 </div>
             </div>
             <div class="mg-testi-partners parallax">
+                <div>
+                    <div class="container">
+                        <h2 class="mg-sec-left-title">Pueblos Mágicos</h2>
+                        <p style="font-size: 16px; color: #8D3C44">
+                            El ecoturismo es considerado una creciente actividad caracterizada por una nueva actitud del turista frente a la naturaleza, que busca no sólo disfrutar de ella, sino apreciarla, cuidarla y valorarla.
+                        </p>
+                        <p style="font-size: 16px; color: #8D3C44">
+                            En este sentido, el Centro Ecoturístico Entrada a la Sierra se enorgullece de formar parte del Fondo Regional Tizenyetokej Kachiquinin S.C integrado por 64 organizaciones indígenas y mestizas dedicadas tradicionalmente a la agricultura, la pesca, la ganadería y la artesanía.  
+                        </p>
+                        <p style="font-size: 16px; color: #8D3C44">
+                            De la misma manera, resaltamos la colaboración de PROTURZA (Promotora Turística de Zacapoaxtla), por realiza las eco rutas que muestran la gran riqueza cultural y natural de Zacapoaxtla y la región, aprovechando de manera sustentable los recursos.
+                        </p>
+                    </div>
+                    <br><br>
+                    <section class="jk-slider">
+                        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example" data-slide-to="1"></li>
+                                <li data-target="#carousel-example" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                
+                                <div class="item active">
+                                    <div class="hero">
+                                        <hgroup>
+                                        <h1>Chingnahuapan</h1>
+                                        <h3>El Pueblo Mágico de la Navidad </h3>
+                                        <p>
+                                        Chignahuapan es colorista y lleno de encanto, como si el pueblo entero fuera un lienzo; casas, templos y jardines están pintados en la paleta más alegre de México. Brillantes esferas de Navidad encienden las calles desde cada tienda. El Pueblo Mágico de Chignahuapan parece un escenario de cuento que ha visto nacer personajes como el gran humorista Capulina.
+                                        </p>
+                                        </hgroup>
+                                        
+                                    </div>
+                                    <div class="overlay"></div>
+                                    <a href="#">
+                                        <img style="width: 1680px; height: 945px" src="https://i.ytimg.com/vi/oMizVFesmYU/maxresdefault.jpg" />
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <div class="hero">
+                                        <hgroup>
+                                        <h1>Tetela de Ocampo</h1>
+                                        <p>
+                                            Situada en lo alto de un cerro, las vistas desde sus miradores sobre la Sierra, como el de la Iglesia de la Asunción, son espectaculares
+                                        </p>
+                                        </hgroup>
+                                    </div>
+                                    
+                                    <div class="overlay"></div>
+                                    <a href="#">
+                                        <img style="width: 1680px; height: 945px" src="http://www.wikipuebla.poblanerias.com/wp-content/uploads/2012/10/tetela-de-ocampo-candidato-a-pueblo-magico-69456.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="item">
+                                    <div class="hero">
+                                        <hgroup>
+                                        <h1>Zacapoaxtla</h1>
+                                        <p>
+                                            Este pueblo serrano, ubicado en la carretera que sube desde Puebla hasta Cuetzalan, posee un agradable centro para pasear
+                                        </p>
+                                        </hgroup>
+                                        
+                                    </div>
+                                    <div class="overlay"></div>
+                                    <a href="#">
+                                        <img style="width: 1680px; height: 945px" src="https://rostroshoy.files.wordpress.com/2015/09/zacapoaxtla.jpg"/>
+                                    </a>
+                                    
+                                </div>
+                                <div class="item">
+                                    <div class="hero">
+                                        <hgroup>
+                                        <h1>Cascada Velo de Novia</h1>
+                                        <p>
+                                            Se llega por un camino de terracería hasta un lugar para estacionar el auto y se continúa a pie por un estrecho sendero que cruza un río tranquilo y nos lleva hasta una loma desde donde se ve la cascada.
+                                        </p>
+                                        </hgroup>
+                                        
+                                    </div>
+                                    <div class="overlay"></div>
+                                    <a href="#">
+                                        <img style="width: 1680px; height: 945px" src="https://i.ytimg.com/vi/BdzZI5CLwvc/maxresdefault.jpg"/>
+                                    </a>
+                                    
+                                </div>
+
+                                <div class="item">
+                                    <div class="hero">
+                                        <hgroup>
+                                        <h1>Río Apulco</h1>
+                                        <p>
+                                            Este río se origina en Zautla y cruza varios municipios de poniente a oriente. Es un río de poco caudal que depende de las condiciones de lluvia, su ancho aproximadamente es de 8 a 10 metros y su vegetación dominante está formada por pino, oyamel, sabino y ocote.
+                                        </p>
+                                        </hgroup>
+                                        
+                                    </div>
+                                    <div class="overlay"></div>
+                                    <a href="#">
+                                        <img style="width: 1680px; height: 945px" src="http://www.unionpuebla.mx/sites/default/files/Aguas%20del%20R%C3%ADo%20Apulco%20en%20Zacapoaxtla_1.jpg"/>
+                                    </a>
+                                    
+                                </div>
+
+                                <div class="item">
+                                    <div class="hero">
+                                        <hgroup>
+                                        <h1>Parroquia de San Pedro Apóstol</h1>
+                                        <p>
+                                            Es también conocida como Parroquia Lateralense. Es un edificio de estilo neoclásico de inspiración grecorromana, con una inconfundible fachada de columnas toscanas, rematada con un frontispicio triangular. La planta de la iglesia es basilical, con una bóveda sostenida por arcos de nervadura. El reloj europeo de la torre mayor fue instalado en 1882 y el interior fue decorado en 1936 por el pintor Luis Toral. Junto a la Parroquia hay una capilla dedicada al culto del Cristo de Esquipulas, una imagen llegada de Guatemala.
+                                        </p>
+                                        </hgroup>
+                                        
+                                    </div>
+                                    <div class="overlay"></div>
+                                    <a href="#">
+                                        <img style="width: 1680px; height: 945px" src="http://cdn.proceso.com.mx/media/2013/05/Parroquia-de-San-Pedro-Apóstol.jpg"/>
+                                    </a>
+                                    
+                                </div>
+
+                                <div class="item">
+                                    <div class="hero">
+                                        <hgroup>
+                                        <h1>Santuario de Guadalupe</h1>
+                                        <p>
+                                            De finales del S. XIX, se observa en su interior el talento de los artistas de la región, quienes intentaron copiar la disposición y decoración de la antigua Basílica de Guadalupe de México. Destaca el retablo principal de estilo neoclásico y unas pinturas alusivas a la aparición de la Virgen; parecidas a las de Villa de Guadalupe, en la Ciudad de México. Considerada como Monumento Nacional y como Patrimonio de la Humanidad, reconocida por la "UNESCO" desde 1949.
+
+                                        </p>
+                                        </hgroup>
+                                        
+                                    </div>
+                                    <div class="overlay"></div>
+                                    <a href="#">
+                                        <img style="width: 1680px; height: 945px" src="https://c4.staticflickr.com/3/2132/2213120379_080488fb35_b.jpg"/>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                        
+                    </section>
+                </div>
+                <br><br>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
@@ -426,6 +596,7 @@
         </div>
     </div>
 </div>
+<!--
 <div class="mg-news-gallery">
     <div class="container">
         <div class="row">
@@ -479,11 +650,15 @@
         </div>
     </div>
 </div>
+-->
+
+@include('modals')
 <footer class="mg-footer">
+    <!--
     <div class="mg-footer-widget">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
                     <div class="widget">
                         <h2 class="mg-widget-title">Contacto</h2>
                         <address>
@@ -501,54 +676,13 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h2 class="mg-widget-title">Instagram</h2>
-                        <ul class="mg-instagram">
-                            <li><a href="#"><img src="images/ins-01.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/ins-02.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/ins-03.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/ins-04.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/ins-05.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/ins-06.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/ins-07.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/ins-08.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/ins-09.png" alt=""></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h2 class="mg-widget-title">Newsletter</h2>
-                        <p>Inbecilloque elegans errorem concedo coniuncta arare dicant etsi electram minimum.</p>
-                        <form>
-                            <p>
-                                <input type="email" class="form-control" placeholder="Your Email">
-                            </p>
-                            <input type="submit" class="btn btn-main" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h2 class="mg-widget-title">Social Media</h2>
-                        <p>Tibi alienus possimus nomini legendus pariatur, logikh assidua philosophis expectat occultarum accedit suscipit interrogari difficilius reddidisti.</p>
-                        <ul class="mg-footer-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
+    -->
     <div class="mg-copyright">
         <div class="container">
             <div class="row">
-                
                 <div class="col-md-6">
                     <ul class="mg-footer-nav">
                         <li><a href="#">Inicio</a></li>
