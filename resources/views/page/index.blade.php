@@ -45,10 +45,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li  class="active"><a href="index.html">Inicio</a></li>
-                        <li><a href="gallery.html">Acerca de nosotros</a></li>
-                        <li><a href="gallery.html">Cabañas</a></li>
-                        <li><a href="gallery.html">Contacto</a></li>
+                        <li  class="active"><a onclick="$('body').animatescroll();">Inicio</a></li>
+                        <li><a onclick="$('#acerca').animatescroll();">Acerca de nosotros</a></li>
+                        <li><a onclick="$('#cabañas').animatescroll();">Cabañas</a></li>
+                        <li><a onclick="$('#pueblos').animatescroll();">Pueblos mágicos</a></li>
+                        <li><a onclick="$('#contacto').animatescroll();">Contacto</a></li>
                         <!--
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
@@ -191,7 +192,7 @@
             </div>
             <div class="mg-best-rooms">
                 <div class="container">
-                    <div class="row">
+                    <div class="row" id="cabañas">
                         <div class="col-md-12">
                             <div class="mg-sec-title">
                                 <h2>Nuestras Cabañas</h2>
@@ -248,7 +249,7 @@
             <div class="mg-about parallax">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-7">
+                        <div class="col-md-7" id="acerca">
                             <h2 class="mg-sec-left-title">Acerca de Entrada a la Sierra</h2>
                             <p>Bienvenidos a Cabañas Entrada a la Sierra, un lugar rodeado de naturaleza, ubicado en la sierra nororiental del estado de Puebla. <br><br>
                                 Entrada a la Sierra es un punto de encuentro y de partida, pero sobre todo una experiencia de disfrute responsable: Culturas y Naturaleza en armonía. <br><br>
@@ -263,7 +264,7 @@
                     </div>
                     <br><br>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12" id="contacto">
                             <h2 class="mg-sec-left-title">¿Dónde estamos?</h2>
                             <br>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.5832153082006!2d-97.58818378508657!3d19.857580486644338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85da973795dc09bb%3A0x4ccdda7e28328812!2sCaba%C3%B1as+Entrada+a+la+Sierra!5e0!3m2!1ses-419!2smx!4v1483383586669" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -413,7 +414,7 @@
             </div>
             <div class="mg-testi-partners parallax">
                 <div>
-                    <div class="container">
+                    <div class="container" id="pueblos">
                         <h2 class="mg-sec-left-title">Pueblos Mágicos</h2>
                         <p style="font-size: 16px; color: #8D3C44">
                             El ecoturismo es considerado una creciente actividad caracterizada por una nueva actitud del turista frente a la naturaleza, que busca no sólo disfrutar de ella, sino apreciarla, cuidarla y valorarla.
@@ -711,5 +712,6 @@
 <script src="js/gmaps.min.js"></script>
 <script src="js/jquery.parallax-1.1.3.js"></script>
 <script src="js/script.js"></script>
+<script src="js/animate.min.js"></script>
 </body>
 </html>
