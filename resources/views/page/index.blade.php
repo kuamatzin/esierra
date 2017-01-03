@@ -136,7 +136,7 @@
                 <a class="right carousel-control" href="#mega-slider" role="button" data-slide="next">
                 </a>
             </div>
-            <div class="mg-book-now">
+            <div class="mg-book-now" id="app">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
@@ -144,47 +144,31 @@
                         </div>
                         <div class="col-md-9">
                             <div class="mg-bn-forms">
-                                <form>
                                     <div class="row">
                                         <div class="col-md-3 col-xs-6">
                                             <div class="input-group date mg-check-in">
                                                 <div class="input-group-addon"><i style="color:#8D3C44" class="fa fa-calendar"></i></div>
-                                                <input type="text" class="form-control change" id="exampleInputEmail1" placeholder="Llegada">
+                                                <input type="text" class="form-control change" id="llegada" placeholder="Llegada">
                                             </div>
                                         </div>
                                         <div class="col-md-3 col-xs-6">
                                             <div class="input-group date mg-check-out">
                                                 <div class="input-group-addon"><i style="color:#8D3C44" class="fa fa-calendar"></i></div>
-                                                <input type="text" class="form-control change" id="exampleInputEmail1" placeholder="Salida">
+                                                <input type="text" class="form-control change" id="salida" placeholder="Salida">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
-                                            <div class="row">
-                                                <div class="col-xs-6">
-                                                    <select class="cs-select cs-skin-elastic">
-                                                        <option value="" disabled selected>Adultos</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                </div>
-                                                <div class="col-xs-6">
-                                                    <select class="cs-select cs-skin-elastic">
-                                                        <option value="" disabled selected>Niños</option>
-                                                        <option value="0">0</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                    </select>
-                                                </div>
-                                            </div>
+                                                <select class="cs-select cs-skin-elastic" id="cabana_select">
+                                                    <option value="" disabled selected>Tipo de cabaña</option>
+                                                    <option value="1">1 habitación/2 personas</option>
+                                                    <option value="2">2 habitaciones/4 personas</option>
+                                                    <option value="3">3 habitaciones/6 personas</option>
+                                                </select>
                                         </div>
                                         <div class="col-md-3">
-                                            <button type="submit" class="btn btn-main btn-block">Reservar</button>
+                                            <button class="btn btn-main btn-block" id="reservar">Reservar</button>
                                         </div>
                                     </div>
-                                </form>
                             </div>
                         </div>
                     </div>
@@ -420,7 +404,7 @@
                             El ecoturismo es considerado una creciente actividad caracterizada por una nueva actitud del turista frente a la naturaleza, que busca no sólo disfrutar de ella, sino apreciarla, cuidarla y valorarla.
                         </p>
                         <p style="font-size: 16px; color: #8D3C44">
-                            En este sentido, el Centro Ecoturístico Entrada a la Sierra se enorgullece de formar parte del Fondo Regional Tizenyetokej Kachiquinin S.C integrado por 64 organizaciones indígenas y mestizas dedicadas tradicionalmente a la agricultura, la pesca, la ganadería y la artesanía.  
+                            En este sentido, el Centro Ecoturístico Entrada a la Sierra se enorgullece de formar parte del Fondo Regional Tizenyetokej Kachiquinin S.C integrado por 64 organizaciones indígenas y mestizas dedicadas tradicionalmente a la agricultura, la pesca, la ganadería y la artesanía.
                         </p>
                         <p style="font-size: 16px; color: #8D3C44">
                             De la misma manera, resaltamos la colaboración de PROTURZA (Promotora Turística de Zacapoaxtla), por realiza las eco rutas que muestran la gran riqueza cultural y natural de Zacapoaxtla y la región, aprovechando de manera sustentable los recursos.
@@ -442,7 +426,7 @@
                                         <h1>Chingnahuapan</h1>
                                         <h3>El Pueblo Mágico de la Navidad </h3>
                                         <p>
-                                        Chignahuapan es colorista y lleno de encanto, como si el pueblo entero fuera un lienzo; casas, templos y jardines están pintados en la paleta más alegre de México. Brillantes esferas de Navidad encienden las calles desde cada tienda. El Pueblo Mágico de Chignahuapan parece un escenario de cuento que ha visto nacer personajes como el gran humorista Capulina.
+                                            Chignahuapan es colorista y lleno de encanto, como si el pueblo entero fuera un lienzo; casas, templos y jardines están pintados en la paleta más alegre de México. Brillantes esferas de Navidad encienden las calles desde cada tienda. El Pueblo Mágico de Chignahuapan parece un escenario de cuento que ha visto nacer personajes como el gran humorista Capulina.
                                         </p>
                                         </hgroup>
                                         
@@ -499,7 +483,6 @@
                                     </a>
                                     
                                 </div>
-
                                 <div class="item">
                                     <div class="hero">
                                         <hgroup>
@@ -516,7 +499,6 @@
                                     </a>
                                     
                                 </div>
-
                                 <div class="item">
                                     <div class="hero">
                                         <hgroup>
@@ -533,14 +515,12 @@
                                     </a>
                                     
                                 </div>
-
                                 <div class="item">
                                     <div class="hero">
                                         <hgroup>
                                         <h1>Santuario de Guadalupe</h1>
                                         <p>
                                             De finales del S. XIX, se observa en su interior el talento de los artistas de la región, quienes intentaron copiar la disposición y decoración de la antigua Basílica de Guadalupe de México. Destaca el retablo principal de estilo neoclásico y unas pinturas alusivas a la aparición de la Virgen; parecidas a las de Villa de Guadalupe, en la Ciudad de México. Considerada como Monumento Nacional y como Patrimonio de la Humanidad, reconocida por la "UNESCO" desde 1949.
-
                                         </p>
                                         </hgroup>
                                         
@@ -652,7 +632,6 @@
     </div>
 </div>
 -->
-
 @include('modals')
 <footer class="mg-footer">
     <!--
@@ -697,6 +676,7 @@
     </div>
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
 <script src="js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
@@ -713,5 +693,6 @@
 <script src="js/jquery.parallax-1.1.3.js"></script>
 <script src="js/script.js"></script>
 <script src="js/animate.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
