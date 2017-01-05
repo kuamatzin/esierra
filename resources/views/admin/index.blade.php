@@ -47,13 +47,25 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
-                            <th></th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Teléfono</th>
+                            <th>Email</th>
+                            <th>Fecha Llegada</th>
+                            <th>Fecha Salida</th>
+                            <th>Cabaña</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach($reservaciones as $key => $reservacion)
                         <tr>
-                            <td></td>
+                            <td>{{$reservacion->nombre}}</td>
+                            <td>{{$reservacion->apellidos}}</td>
+                            <td>{{$reservacion->telefono}}</td>
+                            <td>{{$reservacion->email}}</td>
+                            <td>{{$reservacion->fecha_llegada}}</td>
+                            <td>{{$reservacion->fecha_salida}}</td>
+                            <td>{{$reservacion->cabana->nombre}}</td>
                         </tr>
                         @endforeach
                     </tbody>

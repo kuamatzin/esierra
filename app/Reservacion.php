@@ -12,5 +12,11 @@ class Reservacion extends Model
 
     protected $dates = ['fecha_llegada', 'fecha_salida'];
 
+
+    public function cabana()
+    {
+        return $this->belongsTo(Cabana::class, 'cabana_id');
+    }
+
     
 }
