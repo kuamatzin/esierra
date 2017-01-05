@@ -1,4 +1,6 @@
 //require('./bootstrap');
+//
+require('sweetalert');
 
 $('#reservar').click(function(event) {
     var llegada = $('#llegada').val()
@@ -13,8 +15,10 @@ $('#reservar').click(function(event) {
         })
         .done(function(disponibilidad) {
             if (disponibilidad) {
-                console.log("HOLA")
                 $('#reservar_cabana').modal('show')
+            }
+            else {
+                swal("No hay disponibilidad para las fechas que se mencionan");
             }
         })
         .fail(function() {
@@ -57,6 +61,7 @@ $('#form_reservar').on('submit', function(e){
             $("[name='email']").val(''),
             $('#reservar_cabana').modal('hide')
         }
+        swal("Su reservación ha sido guardada con éxito");
     })
     .fail(function() {
         console.log("error");

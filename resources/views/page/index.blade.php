@@ -17,6 +17,7 @@
         <link href="css/bootstrap-datepicker3.min.css" rel="stylesheet">
         <link href="css/freepik.hotels.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/app.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
