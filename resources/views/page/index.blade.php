@@ -435,7 +435,6 @@
                                             Cuetzalan ofrece una rica mezcla de atractivos prehispánicos y coloniales acariciados por la neblina, así como cascadas y cavernas en sus alrededores.
                                         </p>
                                         </hgroup>
-                                        
                                     </div>
                                     <div class="overlay"></div>
                                     <a href="#">

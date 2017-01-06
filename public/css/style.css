@@ -4361,7 +4361,7 @@ div.cs-skin-elastic .cs-options .cs-selected span::after {
               transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;    
+    font-size: 4em;    
     font-weight: bold;
     margin: 0;
     padding: 0;
