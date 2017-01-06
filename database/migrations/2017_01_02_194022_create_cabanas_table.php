@@ -16,7 +16,6 @@ class CreateCabanasTable extends Migration
         Schema::create('cabanas', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nombre');
-            $table->string('ubicacion');
             $table->integer('tipo');
             $table->boolean('disponibilidad');
             $table->timestamps();
