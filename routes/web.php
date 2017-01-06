@@ -1,9 +1,12 @@
 <?php
 
+use App\Mail\NuevaReservacionEmail;
+use App\Mail\ReservacionEmail;
 use App\Reservacion;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Mail;
 
 Route::get('/', 'PageController@index');
 
@@ -24,6 +27,12 @@ Route::post('/reservar', function(Request $request){
     $request['fecha_salida'] = $salida;
 
     Reservacion::create($request->all());
+
+    //Send email to administrator
+    Mail::to('kuamatzin@gmail.com')->send(new NuevaReservacionEmail($request->all()));
+
+    //Send email to contact
+    Mail::to($request->email)->send(new ReservacionEmail($request->all()));
 
     return response()->json(true, 200);
 });

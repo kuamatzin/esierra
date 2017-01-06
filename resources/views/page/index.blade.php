@@ -190,7 +190,9 @@
                                         <h2>Cabaña 1 habitación/2 personas</h2>
                                         <div class="mg-room-price">$300<sup>.00/Noche</sup></div>
                                         <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
+                                        <!--
                                         <a data-toggle="modal" href='#detalles_cabañas' class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
+                                        -->
                                         <a href="#" class="btn btn-main">Reservar</a>
                                         </figcaption>
                                     </figure>
@@ -202,7 +204,9 @@
                                         <h2>Cabaña 2 habitaciones/4 personas</h2>
                                         <div class="mg-room-price">$800<sup>.00/Noche</sup></div>
                                         <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
+                                        <!--
                                         <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
+                                        -->
                                         <a href="#" class="btn btn-main">Reservar</a>
                                         </figcaption>
                                     </figure>
@@ -214,7 +218,9 @@
                                         <h2>Cabaña 3 habitaciones/6 personas</h2>
                                         <div class="mg-room-price">$1000<sup>.00/Noche</sup></div>
                                         <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
+                                        <!--
                                         <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
+                                        -->
                                         <a href="#" class="btn btn-main">Reservar</a>
                                         </figcaption>
                                     </figure>
@@ -301,6 +307,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!--
                                 <div class="col-sm-4">
                                     <div class="mg-feature">
                                         <div class="mg-feature-icon-title">
@@ -309,6 +316,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                -->
                                 <div class="col-sm-4">
                                     <div class="mg-feature">
                                         <div class="mg-feature-icon-title">
