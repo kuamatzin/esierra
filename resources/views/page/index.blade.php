@@ -380,7 +380,7 @@
                                         </div>
                                         <p>Renúevate con un baño de temazcal</p>
                                         <br><br><br>
-                                        <img src="https://www.maspormas.com/wp-content/uploads/2016/07/temazcal-1.jpg" alt="" class="img-responsive">
+                                        <img src="images/cabañas/temazcal.png" alt="" width="360px" height="241px">
                                         <br>
                                         <p>
                                             Nuestro servicio TODO INCLUIDO cuenta con mobiliario para 100 personas, e incluye: mantelería, losa, cocina para calentar y un enfriador. El costo de la renta del salón por 8 horas es de: $3500.00 y cada hora extra tiene un costo de $400.00.
@@ -418,38 +418,43 @@
                                 <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example" data-slide-to="1"></li>
                                 <li data-target="#carousel-example" data-slide-to="2"></li>
+                                <li data-target="#carousel-example" data-slide-to="3"></li>
+                                <li data-target="#carousel-example" data-slide-to="4"></li>
+                                <li data-target="#carousel-example" data-slide-to="5"></li>
+                                <li data-target="#carousel-example" data-slide-to="6"></li>
+                                <li data-target="#carousel-example" data-slide-to="7"></li>
                             </ol>
                             <div class="carousel-inner">
                                 
                                 <div class="item active">
                                     <div class="hero">
                                         <hgroup>
-                                        <h1>Chingnahuapan</h1>
+                                        <h1>Cuetzalan</h1>
                                         <h3>El Pueblo Mágico de la Navidad </h3>
                                         <p>
-                                            Chignahuapan es colorista y lleno de encanto, como si el pueblo entero fuera un lienzo; casas, templos y jardines están pintados en la paleta más alegre de México. Brillantes esferas de Navidad encienden las calles desde cada tienda. El Pueblo Mágico de Chignahuapan parece un escenario de cuento que ha visto nacer personajes como el gran humorista Capulina.
+                                            Cuetzalan ofrece una rica mezcla de atractivos prehispánicos y coloniales acariciados por la neblina, así como cascadas y cavernas en sus alrededores.
                                         </p>
                                         </hgroup>
                                         
                                     </div>
                                     <div class="overlay"></div>
                                     <a href="#">
-                                        <img style="width: 1680px; height: 945px" src="https://i.ytimg.com/vi/oMizVFesmYU/maxresdefault.jpg" />
+                                        <img style="width: 1680px; height: 945px" src="https://www.mexicodesconocido.com.mx/drupal/sites/default/files/styles/adaptive/public/fichas-destino/puebla_pueblo_magico_cuetzalan_parroquia_san_francisco_asis_am.jpg?itok=yeOxIImC" />
                                     </a>
                                 </div>
                                 <div class="item">
                                     <div class="hero">
                                         <hgroup>
-                                        <h1>Tetela de Ocampo</h1>
+                                        <h1>Tlatlauquitepec</h1>
                                         <p>
-                                            Situada en lo alto de un cerro, las vistas desde sus miradores sobre la Sierra, como el de la Iglesia de la Asunción, son espectaculares
+                                            Ubicado al noreste del estado de Puebla este Pueblo Mágico te conquistará con sus hermosas construcciones y paradores ecoturísticos abrazados por una imponente franja serrana.
                                         </p>
                                         </hgroup>
                                     </div>
                                     
                                     <div class="overlay"></div>
                                     <a href="#">
-                                        <img style="width: 1680px; height: 945px" src="http://www.wikipuebla.poblanerias.com/wp-content/uploads/2012/10/tetela-de-ocampo-candidato-a-pueblo-magico-69456.jpg"/>
+                                        <img style="width: 1680px; height: 945px" src="http://www.pueblosmexico.com.mx/IMG/arton23478.jpg"/>
                                     </a>
                                 </div>
                                 <div class="item">
@@ -496,7 +501,7 @@
                                     </div>
                                     <div class="overlay"></div>
                                     <a href="#">
-                                        <img style="width: 1680px; height: 945px" src="http://www.unionpuebla.mx/sites/default/files/Aguas%20del%20R%C3%ADo%20Apulco%20en%20Zacapoaxtla_1.jpg"/>
+                                        <img style="width: 1680px; height: 945px" src="https://i.ytimg.com/vi/XQsXHs_l9Ig/maxresdefault.jpg"/>
                                     </a>
                                     
                                 </div>
