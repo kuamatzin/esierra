@@ -189,7 +189,7 @@
                                         <figcaption>
                                         <h2>Cabaña 1 habitación/2 personas</h2>
                                         <div class="mg-room-price">$300<sup>.00/Noche</sup></div>
-                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
+                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós y regadera) </p>
                                         <!--
                                         <a data-toggle="modal" href='#detalles_cabañas' class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
                                         -->
@@ -203,7 +203,7 @@
                                         <figcaption>
                                         <h2>Cabaña 2 habitaciones/4 personas</h2>
                                         <div class="mg-room-price">$800<sup>.00/Noche</sup></div>
-                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
+                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós y regadera) </p>
                                         <!--
                                         <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
                                         -->
@@ -217,7 +217,7 @@
                                         <figcaption>
                                         <h2>Cabaña 3 habitaciones/6 personas</h2>
                                         <div class="mg-room-price">$1000<sup>.00/Noche</sup></div>
-                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós, regadera y sanitario ecológico seco) </p>
+                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós y regadera) </p>
                                         <!--
                                         <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
                                         -->
@@ -389,11 +389,17 @@
                                         <p>Renúevate con un baño de temazcal</p>
                                         <br><br><br>
                                         <img src="images/cabañas/temazcal.png" alt="" width="360px" height="241px">
-                                        <br>
+                                        <br><br>
                                         <p>
-                                            Nuestro servicio TODO INCLUIDO cuenta con mobiliario para 100 personas, e incluye: mantelería, losa, cocina para calentar y un enfriador. El costo de la renta del salón por 8 horas es de: $3500.00 y cada hora extra tiene un costo de $400.00.
+                                            Actualmente se sabe que el temazcal estimula el sistema linfático, ayuda a desechar toxinas.
+                                            <br>
+                                            El temazcal sobrepasa en beneficio y eficiencia a los baños comunes de vapor, ya que la persona a cargo del temazcal puede aumentar o bajar el calor.
                                             <br><br>
-                                            Nuestro servicio de café incluye: café, té, leche y galletas por $30.00 p/p. Pregunta por nuestro servicio de banquete o descarga la información aquí.
+                                            Incluye masaje anti-estrés de 30 minutos, té relajante y 2 hrs. de reposo en habitación $300.00  p/p
+                                            <br><br>
+                                           Masaje relajante (30 minutos) $100.00 p/p
+                                            <br><br>
+                                            NOTA: Este servicio requiere previo aviso de 24 hrs.
                                         </p>
                                         <!--
                                         <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
@@ -413,10 +419,7 @@
                             El ecoturismo es considerado una creciente actividad caracterizada por una nueva actitud del turista frente a la naturaleza, que busca no sólo disfrutar de ella, sino apreciarla, cuidarla y valorarla.
                         </p>
                         <p style="font-size: 16px; color: #8D3C44">
-                            En este sentido, el Centro Ecoturístico Entrada a la Sierra se enorgullece de formar parte del Fondo Regional Tizenyetokej Kachiquinin S.C integrado por 64 organizaciones indígenas y mestizas dedicadas tradicionalmente a la agricultura, la pesca, la ganadería y la artesanía.
-                        </p>
-                        <p style="font-size: 16px; color: #8D3C44">
-                            De la misma manera, resaltamos la colaboración de PROTURZA (Promotora Turística de Zacapoaxtla), por realiza las eco rutas que muestran la gran riqueza cultural y natural de Zacapoaxtla y la región, aprovechando de manera sustentable los recursos.
+                            En este sentido, Entrada a la Sierra se enorgullece de formar parte del Fondo Regional Tizenyetokej Kachiquinin S.C integrado por 64 organizaciones indígenas y mestizas dedicadas tradicionalmente a la agricultura, la pesca, la ganadería y la artesanía.
                         </p>
                     </div>
                     <br><br>
