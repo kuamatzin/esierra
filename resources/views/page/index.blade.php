@@ -103,6 +103,8 @@
                     <li data-target="#mega-slider" data-slide-to="0" class="active"></li>
                     <li data-target="#mega-slider" data-slide-to="1"></li>
                     <li data-target="#mega-slider" data-slide-to="2"></li>
+                    <li data-target="#mega-slider" data-slide-to="3"></li>
+                    <li data-target="#mega-slider" data-slide-to="4"></li>
                 </ol>
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
@@ -128,6 +130,22 @@
                             <img src="images/stars.png" alt="">
                             <h2>El lugar perfecto para descansar</h2>
                             <p><strong>Siéntete como en casa rodeado de bellos paisajes en medio de la naturaleza</strong></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/cabañas/slider4.png" alt="...">
+                        <div class="carousel-caption">
+                            <img src="images/stars.png" alt="">
+                            <h2>Tus eventos en un lugar mágico</h2>
+                            <p><strong>Organiza y disfruta tus reuniones de trabajo y fiestas en nuestro salón de eventos</strong></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/cabañas/slider5.png" alt="...">
+                        <div class="carousel-caption">
+                            <img src="images/stars.png" alt="">
+                            <h2>De la vista nace el amor</h2>
+                            <p><strong>Disfruta de nuestras cabañas con vista panorámica al pueblo de Zacapoaxtla</strong></p>
                         </div>
                     </div>
                 </div>
@@ -164,6 +182,8 @@
                                                     <option value="1">1 habitación/2 personas</option>
                                                     <option value="2">2 habitaciones/4 personas</option>
                                                     <option value="3">3 habitaciones/6 personas</option>
+                                                    <option value="4">Temazcal (2 per. min.)</option>
+                                                    <option value="5">Salón de eventos</option>
                                                 </select>
                                         </div>
                                         <div class="col-md-3">
@@ -203,7 +223,7 @@
                                         <figcaption>
                                         <h2>Cabaña 2 habitaciones/4 personas</h2>
                                         <div class="mg-room-price">$800<sup>.00/Noche</sup></div>
-                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós y regadera) </p>
+                                        <p>Para cuatro personas (equipada con cocineta, refrigerador, sala-comedor y chimenea) </p>
                                         <!--
                                         <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
                                         -->
@@ -217,7 +237,7 @@
                                         <figcaption>
                                         <h2>Cabaña 3 habitaciones/6 personas</h2>
                                         <div class="mg-room-price">$1000<sup>.00/Noche</sup></div>
-                                        <p>Para una o dos personas (equipada con cama matrimonial, tocador, burós y regadera) </p>
+                                        <p>Para seis personas (equipada con cocineta, refrigerador, sala-comedor y chimenea) </p>
                                         <!--
                                         <a href="#" class="btn btn-link">Ver detalles <i class="fa fa-angle-double-right"></i></a>
                                         -->
@@ -250,15 +270,28 @@
                         </div>
                         <div class="col-md-5">
                             <br>
-                            <img src="images/cabañas/galeria/2.jpg" alt="" class="img-responsive">
+                            <!-- 16:9 aspect ratio -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/Og-gmMCWuNc" frameborder="0" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
+                    <div id="contacto"></div>
                     <br><br>
                     <div class="row">
-                        <div class="col-md-12" id="contacto">
+                        <h1 class="text-center mg-sec-title" style="color:white">Contacto</h1>
+                        <div class="col-md-8">
                             <h2 class="mg-sec-left-title">¿Dónde estamos?</h2>
                             <br>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.5832153082006!2d-97.58818378508657!3d19.857580486644338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85da973795dc09bb%3A0x4ccdda7e28328812!2sCaba%C3%B1as+Entrada+a+la+Sierra!5e0!3m2!1ses-419!2smx!4v1483383586669" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9401.002712096359!2d-97.585995!3d19.857581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ccdda7e28328812!2sCaba%C3%B1as+Entrada+a+la+Sierra!5e1!3m2!1ses!2smx!4v1483981964676" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h2 class="mg-sec-left-title">Información</h2>
+                            <br>
+                            <p style="font-size: 1.2em"><strong>Oficina:</strong> 01 233 31 4 49 20</p>
+                            <p style="font-size: 1.2em"><strong>Whatsapp:</strong> 233 102 04 18</p>
+                            <p style="font-size: 1.2em"><strong>Email:</strong> contacto@entradaalasierra.com</p>
                         </div>
                     </div>
                 </div>
@@ -344,13 +377,15 @@
                                         </div>
                                         <p>Contamos con instalaciones adecuadas para cualquier tipo de evento social, institucional, empresarial o grupal</p>
                                         <br>
-                                        <img src="http://www.upranet.com.ar/_esp/wp-content/uploads/2010/07/DOMPO-024.jpg" alt="" class="img-responsive" style="height: 241px; width: 100%">
+                                        <img src="images/banquete.png" width="360px" height="241px">
                                         <br>
                                         <p>
-                                            Nuestro servicio TODO INCLUIDO cuenta con mobiliario para 100 personas, e incluye: mantelería, losa, cocina para calentar y un enfriador. El costo de la renta del salón por 8 horas es de: $3500.00 y cada hora extra tiene un costo de $400.00.
+                                            Nuestro servicio TODO INCLUIDO cuenta con mobiliario para 100 personas, e incluye: mantelería, losa, cocina para calentar y un enfriador. El costo de la renta del salón por 8 horas es de: $4000.00 y cada hora extra tiene un costo de $500.00.
                                             <br><br>
                                             Nuestro servicio de café incluye: café, té, leche y galletas por $30.00 p/p.
                                         </p>
+                                        <br>
+                                        <a href="#" class="btn btn-main">Reservar</a>
                                         <!--
                                         <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
                                         -->
@@ -364,16 +399,16 @@
                                         </div>
                                         <p>Celebra tus eventos sociales, institucionales o empresariales con un banquete para 100 personas</p>
                                         <br><br>
-                                        <img src="http://asset4.zankyou.com/images/mag-post/215/cfa7/685//-/mx/wp-content/uploads/2010/08/Sorprende-a-tus-invitados-con-un-banquete-de-bodas-muy-original-300x201.jpg" alt="" class="img-responsive">
+                                        <img src="images/cabañas/slider4.png" width="360px" height="241px">
                                         <br>
                                         <p>
                                             Celebra tus eventos sociales, institucionales o empresariales con un banquete para 100 personas (incluye gastos de salón por tiempo máximo de 8 horas, comida en tres tiempos y servicio de meseros).
                                             <br><br>
-                                            Todo por $10 000.00 <br>
+                                            Todo por $13 000.00 <br>
                                             Pregunta por nuestras opciones de platillos.
                                             <br><br>
                                             Nota: No incluye bebidas alcohólicas ni equipo de sonido <br>
-                                            Paquete fiesta con banquete por $100 p/p (Ocupación mínima de 80 personas).
+                                            Paquete fiesta con banquete por $130 p/p (Ocupación mínima de 80 personas).
                                         </p>
                                         <!--
                                         <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
@@ -401,6 +436,8 @@
                                             <br><br>
                                             NOTA: Este servicio requiere previo aviso de 24 hrs.
                                         </p>
+                                        <br>
+                                        <a href="#" class="btn btn-main">Reservar</a>
                                         <!--
                                         <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
                                         -->

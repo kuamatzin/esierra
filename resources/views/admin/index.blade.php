@@ -18,7 +18,6 @@
                     <thead>
                         <tr>
                             <th>Nombre</th>
-                            <th>Ubicación</th>
                             <th>Tipo</th>
                             <th>Disponibilidad</th>
                         </tr>
@@ -27,7 +26,6 @@
                         @foreach($cabañas as $key => $cabaña)
                         <tr>
                             <td>{{$cabaña->nombre}}</td>
-                            <td>{{$cabaña->ubicacion}}</td>
                             <td>{{$cabaña->tipo}}</td>
                             <td>{{$cabaña->disponibilidad}}</td>
                         </tr>
@@ -92,11 +90,6 @@
                         {!! Form::label('nombre', 'Nombre') !!}
                         {!! Form::text('nombre', null, ['class' => 'form-control', 'required' => 'required']) !!}
                         <small class="text-danger">{{ $errors->first('nombre') }}</small>
-                    </div>
-                    <div class="form-group{{ $errors->has('ubicacion') ? ' has-error' : '' }}">
-                        {!! Form::label('ubicacion', 'Ubicación') !!}
-                        {!! Form::text('ubicacion', null, ['class' => 'form-control', 'required' => 'required']) !!}
-                        <small class="text-danger">{{ $errors->first('ubicacion') }}</small>
                     </div>
                     <div class="form-group{{ $errors->has('tipo') ? ' has-error' : '' }}">
                         {!! Form::label('tipo', 'Tipo') !!}
