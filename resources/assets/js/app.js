@@ -5,13 +5,13 @@ require('sweetalert');
 $('#reservar').click(function(event) {
     var llegada = $('#llegada').val()
     var salida = $('#salida').val()
-    var cabana_id = $('#cabana_select').val()
-    if (llegada != '' && salida != '' && cabana_id != '') {
+    var cabana_type = $('#cabana_select').val()
+    if (llegada != '' && salida != '' && cabana_type != null) {
         $.ajax({
             url: '/disponibilidad',
             type: 'GET',
             dataType: 'json',
-            data: {llegada: llegada, salida: salida, cabana_id: cabana_id},
+            data: {llegada: llegada, salida: salida, cabana_type: cabana_type},
         })
         .done(function(disponibilidad) {
             if (disponibilidad) {
@@ -29,7 +29,7 @@ $('#reservar').click(function(event) {
         });
     }
     else {
-        alert("Selecciona los datos para checar disponibilidad")
+        swal("Selecciona los datos para checar disponibilidad")
     }
 });
 

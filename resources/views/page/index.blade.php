@@ -46,11 +46,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li  class="active"><a onclick="$('body').animatescroll();">Inicio</a></li>
-                        <li><a onclick="$('#acerca').animatescroll();">Acerca de nosotros</a></li>
-                        <li><a onclick="$('#cabañas').animatescroll();">Cabañas</a></li>
-                        <li><a onclick="$('#pueblos').animatescroll();">Pueblos mágicos</a></li>
-                        <li><a onclick="$('#contacto').animatescroll();">Contacto</a></li>
+                        <li  class="active"><a style="cursor: pointer;" onclick="$('body').animatescroll();">Inicio</a></li>
+                        <li><a style="cursor: pointer;" onclick="$('#acerca').animatescroll();">Acerca de nosotros</a></li>
+                        <li><a style="cursor: pointer;" onclick="$('#cabañas').animatescroll();">Cabañas</a></li>
+                        <li><a style="cursor: pointer;" onclick="$('#pueblos').animatescroll();">Pueblos mágicos</a></li>
+                        <li><a style="cursor: pointer;" onclick="$('#contacto').animatescroll();">Contacto</a></li>
                         <!--
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
@@ -516,7 +516,7 @@
                                     </div>
                                     <div class="overlay"></div>
                                     <a href="#">
-                                        <img style="width: 1680px; height: 945px" src="https://rostroshoy.files.wordpress.com/2015/09/zacapoaxtla.jpg"/>
+                                        <img style="width: 1680px; height: 945px" src="images/zaca.png"/>
                                     </a>
                                     
                                 </div>
