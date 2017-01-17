@@ -377,7 +377,7 @@
                                         </div>
                                         <p>Contamos con instalaciones adecuadas para cualquier tipo de evento social, institucional, empresarial o grupal</p>
                                         <br>
-                                        <img src="images/banquete.png" width="360px" height="241px">
+                                        <img src="images/cabañas/slider4.png" width="360px" height="241px">
                                         <br>
                                         <p>
                                             Nuestro servicio TODO INCLUIDO cuenta con mobiliario para 100 personas, e incluye: mantelería, losa, cocina para calentar y un enfriador. El costo de la renta del salón por 8 horas es de: $4000.00 y cada hora extra tiene un costo de $500.00.
@@ -399,7 +399,7 @@
                                         </div>
                                         <p>Celebra tus eventos sociales, institucionales o empresariales con un banquete para 100 personas</p>
                                         <br><br>
-                                        <img src="images/cabañas/slider4.png" width="360px" height="241px">
+                                        <img src="images/banquete.png" width="360px" height="241px">
                                         <br>
                                         <p>
                                             Celebra tus eventos sociales, institucionales o empresariales con un banquete para 100 personas (incluye gastos de salón por tiempo máximo de 8 horas, comida en tres tiempos y servicio de meseros).
