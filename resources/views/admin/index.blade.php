@@ -93,7 +93,7 @@
                     </div>
                     <div class="form-group{{ $errors->has('tipo') ? ' has-error' : '' }}">
                         {!! Form::label('tipo', 'Tipo') !!}
-                        {!! Form::select('tipo',[1 => '1 habitación/2 personas', 2 => '2 habitaciones/4 personas', 3 => '2 habitaciones/4 personas'], 1, ['id' => 'tipo', 'class' => 'form-control', 'required' => 'required']) !!}
+                        {!! Form::select('tipo',[1 => '1 habitación/2 personas', 2 => '2 habitaciones/4 personas', 3 => '3 habitaciones/6 personas', 4 => 'Temazcal'], 1, ['id' => 'tipo', 'class' => 'form-control', 'required' => 'required']) !!}
                         <small class="text-danger">{{ $errors->first('tipo') }}</small>
                     </div>        
             </div>

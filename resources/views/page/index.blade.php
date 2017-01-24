@@ -189,7 +189,6 @@
                                                     <option value="2">2 habitaciones/4 personas</option>
                                                     <option value="3">3 habitaciones/6 personas</option>
                                                     <option value="4">Temazcal (2 per. min.)</option>
-                                                    <option value="5">Salón de eventos</option>
                                                 </select>
                                         </div>
                                         <div class="col-md-3">
