@@ -51,6 +51,12 @@
                         <li><a style="cursor: pointer;" onclick="$('#cabañas').animatescroll();">Cabañas</a></li>
                         <li><a style="cursor: pointer;" onclick="$('#pueblos').animatescroll();">Pueblos mágicos</a></li>
                         <li><a style="cursor: pointer;" onclick="$('#contacto').animatescroll();">Contacto</a></li>
+                        <div style="padding-top: 10px; margin-top: 10px;">
+                            <strong>Oficina:</strong> 01 233 31 4 49 20
+                            <strong>Whatsapp:</strong> 233 102 04 18
+                            <strong>Email:</strong> contacto@entradaalasierra.com
+                        </div>
+
                         <!--
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
@@ -278,16 +284,20 @@
                     </div>
                     <div id="contacto"></div>
                     <br><br>
+                </div>
+            </div>
+            <div class="mg-book-now">
+                <div class="container">
                     <div class="row">
-                        <h1 class="text-center mg-sec-title" style="color:white">Contacto</h1>
+                        <h1 class="text-center mg-sec-title" style="color: #8D3C44">Contacto</h1>
                         <div class="col-md-8">
-                            <h2 class="mg-sec-left-title">¿Dónde estamos?</h2>
+                            <h2 class="mg-bn-title" style="color: #8D3C44">¿Dónde estamos?</h2>
                             <br>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9401.002712096359!2d-97.585995!3d19.857581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4ccdda7e28328812!2sCaba%C3%B1as+Entrada+a+la+Sierra!5e1!3m2!1ses!2smx!4v1483981964676" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
 
                         <div class="col-md-4">
-                            <h2 class="mg-sec-left-title">Información</h2>
+                            <h2 class="mg-bn-title" style="color: #8D3C44">Información</h2>
                             <br>
                             <p style="font-size: 1.2em"><strong>Oficina:</strong> 01 233 31 4 49 20</p>
                             <p style="font-size: 1.2em"><strong>Whatsapp:</strong> 233 102 04 18</p>
@@ -470,7 +480,6 @@
                                 <li data-target="#carousel-example" data-slide-to="4"></li>
                                 <li data-target="#carousel-example" data-slide-to="5"></li>
                                 <li data-target="#carousel-example" data-slide-to="6"></li>
-                                <li data-target="#carousel-example" data-slide-to="7"></li>
                             </ol>
                             <div class="carousel-inner">
                                 
@@ -501,7 +510,7 @@
                                     
                                     <div class="overlay"></div>
                                     <a href="#">
-                                        <img style="width: 1680px; height: 945px" src="http://www.pueblosmexico.com.mx/IMG/arton23478.jpg"/>
+                                        <img style="width: 1680px; height: 945px" src="images/zaca.png"/>
                                     </a>
                                 </div>
                                 <div class="item">
@@ -516,14 +525,14 @@
                                     </div>
                                     <div class="overlay"></div>
                                     <a href="#">
-                                        <img style="width: 1680px; height: 945px" src="images/zaca.png"/>
+                                        <img style="width: 1680px; height: 945px" src="http://vivemexico.org/img/media/TecZacapoaxtla/TecZacapoaxtla_image_3.jpg"/>
                                     </a>
                                     
                                 </div>
                                 <div class="item">
                                     <div class="hero">
                                         <hgroup>
-                                        <h1>Cascada Velo de Novia</h1>
+                                        <h1>Cascada de Ejecayan</h1>
                                         <p>
                                             Se llega por un camino de terracería hasta un lugar para estacionar el auto y se continúa a pie por un estrecho sendero que cruza un río tranquilo y nos lleva hasta una loma desde donde se ve la cascada.
                                         </p>
@@ -532,14 +541,14 @@
                                     </div>
                                     <div class="overlay"></div>
                                     <a href="#">
-                                        <img style="width: 1680px; height: 945px" src="https://i.ytimg.com/vi/BdzZI5CLwvc/maxresdefault.jpg"/>
+                                        <img style="width: 1680px; height: 945px" src="images/ejecayan.png"/>
                                     </a>
                                     
                                 </div>
                                 <div class="item">
                                     <div class="hero">
                                         <hgroup>
-                                        <h1>Río Apulco</h1>
+                                        <h1>Cascada Gloria de Apulco</h1>
                                         <p>
                                             Este río se origina en Zautla y cruza varios municipios de poniente a oriente. Es un río de poco caudal que depende de las condiciones de lluvia, su ancho aproximadamente es de 8 a 10 metros y su vegetación dominante está formada por pino, oyamel, sabino y ocote.
                                         </p>
@@ -548,7 +557,7 @@
                                     </div>
                                     <div class="overlay"></div>
                                     <a href="#">
-                                        <img style="width: 1680px; height: 945px" src="https://i.ytimg.com/vi/XQsXHs_l9Ig/maxresdefault.jpg"/>
+                                        <img style="width: 1680px; height: 945px" src="images/apulco.png"/>
                                     </a>
                                     
                                 </div>
@@ -602,16 +611,16 @@
                             <h2 class="mg-sec-left-title">Testimonios</h2>
                             <div class="mg-testimonial-slider" id="mg-testimonial-slider">
                                 <blockquote>
-                                    <p style="color: #8D3C44">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consumeret terminatas oritur euripidis satis. Venisset ipsum.</p>
-                                <footer style="color: #8D3C44">John Doe, Example Inc</footer>
+                                    <p style="color: #8D3C44; font-size: 1.2em">Estupendo lugar para descansar y adentrarse en la belleza de la serranía poblana. No se te olvide comer los tayoyos del mercado</p>
+                                <footer style="color: #8D3C44; font-size: 1.3em">Manolo Jacinto</footer>
                             </blockquote>
                             <blockquote>
-                                <p style="color: #8D3C44">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sol magnum gustare pararetur statuam, morbi patriam omittantur.</p>
-                            <footer style="color: #8D3C44">John Doe, Example Inc</footer>
+                                <p style="color: #8D3C44; font-size: 1.2em">Al llegar, el mapa nos enviaba a otra parte, sin embargo, llamamos a las cabañas y amablemente fueron por nosotros a la entrada de Zacapoaxtla, cada momento nos entregaron una atención increíble y muy cercana, las casas de campo son muy lindas y acogedoras, la vista es imperdible. Sin duda, lo recomiendo.</p>
+                            <footer style="color: #8D3C44; font-size: 1.3em">Adi Castellano</footer>
                         </blockquote>
                         <blockquote>
-                            <p style="color: #8D3C44">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Stabilem monet, petat excepturi nudus expeteremus fabellas vexetur.</p>
-                        <footer style="color: #8D3C44">John Doe, Example Inc</footer>
+                            <p style="color: #8D3C44; font-size: 1.2em">Presioso lugar para admirar la naturaleza, recomendable al 100%, precios muy accesibles</p>
+                        <footer style="color: #8D3C44; font-size: 1.3em">Denisse Martinez</footer>
                     </blockquote>
                 </div>
             </div>
