@@ -303,7 +303,7 @@
                             <p style="font-size: 1.2em"><strong>Whatsapp:</strong> 233 102 04 18</p>
                             <p style="font-size: 1.2em"><strong>Email:</strong> contacto@entradaalasierra.com</p>
 
-                            <a href="https://www.facebook.com/cabanas.entradaalasierra?fref=ts">
+                            <a href="https://www.facebook.com/cabanas.entradaalasierra?fref=ts" target="_blank">
                                 <img src="http://www.juancmejia.com/wp-content/uploads/2013/01/siguenos-FACEBOOK.jpg" width="180px" class="img-responsive">
                             </a>
                         </div>
