@@ -27,6 +27,7 @@
         <script src="js/modernizr.custom.min.js"></script>
     </head>
     <body>
+        <audio src="/audio.mp3" autoplay="true" loop="true"></audio>
         <div class="preloader"></div>
         <header class="header transp sticky"> <!-- available class for header: .sticky .center-content .transp -->
         <nav class="navbar navbar-inverse">
