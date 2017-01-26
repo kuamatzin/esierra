@@ -301,6 +301,10 @@
                             <p style="font-size: 1.2em"><strong>Oficina:</strong> 01 233 31 4 49 20</p>
                             <p style="font-size: 1.2em"><strong>Whatsapp:</strong> 233 102 04 18</p>
                             <p style="font-size: 1.2em"><strong>Email:</strong> contacto@entradaalasierra.com</p>
+
+                            <a href="https://www.facebook.com/cabanas.entradaalasierra?fref=ts">
+                                <img src="http://www.juancmejia.com/wp-content/uploads/2013/01/siguenos-FACEBOOK.jpg" width="180px" class="img-responsive">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -531,7 +535,7 @@
                                 <div class="item">
                                     <div class="hero">
                                         <hgroup>
-                                        <h1>Cascada de Ejecayan</h1>
+                                        <h1>Cascada de Ejecayan (Velo de Novia)</h1>
                                         <p>
                                             Se llega por un camino de terracería hasta un lugar para estacionar el auto y se continúa a pie por un estrecho sendero que cruza un río tranquilo y nos lleva hasta una loma desde donde se ve la cascada.
                                         </p>
@@ -547,7 +551,7 @@
                                 <div class="item">
                                     <div class="hero">
                                         <hgroup>
-                                        <h1>Cascada Gloria de Apulco</h1>
+                                        <h1>Cascada La Gloria de Apulco</h1>
                                         <p>
                                             Este río se origina en Zautla y cruza varios municipios de poniente a oriente. Es un río de poco caudal que depende de las condiciones de lluvia, su ancho aproximadamente es de 8 a 10 metros y su vegetación dominante está formada por pino, oyamel, sabino y ocote.
                                         </p>
