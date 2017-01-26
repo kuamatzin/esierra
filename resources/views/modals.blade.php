@@ -20,7 +20,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" style="color: #8C3D45;">Déjanos tus datos para reservar tu cabaña</h4>
+                <h4 class="modal-title" style="color: #8C3D45;">Déjanos tus datos para hacer tu reservación</h4>
             </div>
             <form id="form_reservar">
             <input type="hidden" name="_token" id="token" value="{{ csrf_token() }}">

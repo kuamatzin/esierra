@@ -159,7 +159,7 @@
                 <!-- Controls -->
                 <a class="left carousel-control" href="#mega-slider" role="button" data-slide="prev">
                 </a>
-                <a class="right carousel-control" href="#mega-slider" role="button" data-slide="next">
+                <a class="right carousel-control" href="#mega-slider" role="button" data-slide="next" id="reservar-seccion">
                 </a>
             </div>
             <div class="mg-book-now" id="app">
@@ -399,7 +399,6 @@
                                             Nuestro servicio de café incluye: café, té, leche y galletas por $30.00 p/p.
                                         </p>
                                         <br>
-                                        <a href="#" class="btn btn-main">Reservar</a>
                                         <!--
                                         <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
                                         -->
@@ -451,7 +450,7 @@
                                             NOTA: Este servicio requiere previo aviso de 24 hrs.
                                         </p>
                                         <br>
-                                        <a href="#" class="btn btn-main">Reservar</a>
+                                        <a onclick="$('#reservar-seccion').animatescroll()" class="btn btn-main">Reservar</a>
                                         <!--
                                         <button type="submit" class="btn btn-main btn-block">Ver detalles</button>
                                         -->
