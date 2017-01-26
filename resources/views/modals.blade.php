@@ -48,6 +48,18 @@
                     {!! Form::email('email', null, ['class' => 'form-control', 'required' => 'required', 'placeholder' => 'eg: foo@bar.com']) !!}
                     <small class="text-danger">{{ $errors->first('email') }}</small>
                 </div>
+
+                <div class="form-group{{ $errors->has('procedencia') ? ' has-error' : '' }}">
+                    {!! Form::label('procedencia', '¿De dónde nos visitan?') !!}
+                    {!! Form::text('procedencia', null, ['class' => 'form-control']) !!}
+                    <small class="text-danger">{{ $errors->first('procedencia') }}</small>
+                </div>
+
+                <div class="form-group{{ $errors->has('comentarios') ? ' has-error' : '' }}">
+                    {!! Form::label('comentarios', 'Comentarios') !!}
+                    {!! Form::textarea('comentarios', null, ['class' => 'form-control']) !!}
+                    <small class="text-danger">{{ $errors->first('comentarios') }}</small>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>

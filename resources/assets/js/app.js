@@ -43,33 +43,37 @@ $('#form_reservar').on('submit', function(e){
         telefono: $("[name='telefono']").val(),
         email: $("[name='email']").val(),
         fecha_llegada: $('#llegada').val(),
-        fecha_salida: $('#salida').val()
+        fecha_salida: $('#salida').val(),
+        procedencia: $("[name='procedencia']").val(),
+        comentarios: $("[name='comentarios']").val()
     }
-    console.log(email)
-    $.ajax({
-        url: '/reservar',
-        type: 'POST',
-        headers: {'X-CSRF-TOKEN': $('#token').val()},
-        dataType: 'json',
-        data: data,
-    })
-    .done(function(response) {
-        if (response) {
-            $("[name='nombre']").val(''),
-            $("[name='apellidos']").val(''),
-            $("[name='telefono']").val(''),
-            $("[name='email']").val(''),
-            $('#reservar_cabana').modal('hide')
-        }
-        swal("Su reservación ha sido guardada con éxito");
-    })
-    .fail(function() {
-        console.log("error");
-    })
-    .always(function() {
-        console.log("complete");
-    });
-    
+    if (nombre != '' && apellidos != '' && telefono != '' && email != '') {
+        $.ajax({
+            url: '/reservar',
+            type: 'POST',
+            headers: {'X-CSRF-TOKEN': $('#token').val()},
+            dataType: 'json',
+            data: data,
+        })
+        .done(function(response) {
+            if (response) {
+                $("[name='nombre']").val(''),
+                $("[name='apellidos']").val(''),
+                $("[name='telefono']").val(''),
+                $("[name='email']").val(''),
+                $("[name='procedencia']").val(''),
+                $("[name='comentarios']").val(''),
+                $('#reservar_cabana').modal('hide')
+            }
+            swal("Su reservación ha sido guardada con éxito");
+        })
+        .fail(function() {
+            console.log("error");
+        })
+        .always(function() {
+            console.log("complete");
+        });
+    }    
 });
 
 
