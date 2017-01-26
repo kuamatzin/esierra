@@ -15,7 +15,7 @@ Route::get('/disponibilidad', function(){
     $salida = Carbon::createFromFormat('m/d/Y H:i:s',Input::get('salida') . '00:00:00');
     $cabana_type = Input::get('cabana_type');
 
-    $reservaciones = Reservacion::where('')->whereBetween('fecha_llegada', [$llegada, $salida])->orWhereBetween('fecha_salida', [$llegada, $salida])->get();
+    $reservaciones = Reservacion::whereBetween('fecha_llegada', [$llegada, $salida])->orWhereBetween('fecha_salida', [$llegada, $salida])->get();
     
     $disponibilidad = sizeof($reservaciones) > 0 ? false : true;
 
