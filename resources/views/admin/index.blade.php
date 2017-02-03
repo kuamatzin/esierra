@@ -52,6 +52,7 @@
                             <th>Fecha Llegada</th>
                             <th>Fecha Salida</th>
                             <th>Cabaña</th>
+                            <th>Eliminar</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -64,6 +65,9 @@
                             <td>{{$reservacion->fecha_llegada}}</td>
                             <td>{{$reservacion->fecha_salida}}</td>
                             <td>{{$reservacion->cabana->nombre}}</td>
+                            <td>
+                                <button type="button" class="btn btn-danger">Eliminar</button>
+                            </td>
                         </tr>
                         @endforeach
                     </tbody>

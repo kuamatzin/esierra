@@ -52,7 +52,7 @@
                         <li><a style="cursor: pointer;" onclick="$('#cabañas').animatescroll();">Cabañas</a></li>
                         <li><a style="cursor: pointer;" onclick="$('#pueblos').animatescroll();">Pueblos mágicos</a></li>
                         <li><a style="cursor: pointer;" onclick="$('#contacto').animatescroll();">Contacto</a></li>
-                        <div style="padding-top: 10px; margin-top: 10px;">
+                        <div style="padding-right: 25px">
                             <strong>Oficina:</strong> 01 233 31 4 49 20
                             <strong>Whatsapp:</strong> 233 102 04 18
                             <strong>Email:</strong> contacto@entradaalasierra.com
