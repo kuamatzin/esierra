@@ -45,6 +45,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
+                            <th></th>
                             <th>Nombre</th>
                             <th>Apellido</th>
                             <th>Teléfono</th>
@@ -58,6 +59,7 @@
                     <tbody>
                         @foreach($reservaciones as $key => $reservacion)
                         <tr>
+                            <td>{{$key+1}}</td>
                             <td>{{$reservacion->nombre}}</td>
                             <td>{{$reservacion->apellidos}}</td>
                             <td>{{$reservacion->telefono}}</td>
