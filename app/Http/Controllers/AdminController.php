@@ -10,7 +10,7 @@ class AdminController extends Controller
 {
     public function index()
     {
-        $cabañas = Cabana::all();
+        $cabañas = Cabana::orderBy('tipo')->get();
 
         $reservaciones = Reservacion::all();
 
