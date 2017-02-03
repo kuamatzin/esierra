@@ -17,6 +17,7 @@
                 <table class="table table-hover">
                     <thead>
                         <tr>
+                            <th></th>
                             <th>Nombre</th>
                             <th>Tipo</th>
                             <th>Disponibilidad</th>
@@ -25,6 +26,7 @@
                     <tbody>
                         @foreach($cabañas as $key => $cabaña)
                         <tr>
+                            <td>{{$key+1}}</td>
                             <td>{{$cabaña->nombre}}</td>
                             <td>{{$cabaña->tipo}}</td>
                             <td>{{$cabaña->disponibilidad}}</td>
