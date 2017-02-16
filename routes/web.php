@@ -39,6 +39,12 @@ Route::post('/reservar', function(Request $request){
     return response()->json(true, 200);
 });
 
+Route::delete('/reservar', function(Request $request){
+    Reservacion::destroy($request->id);
+
+    return redirect('admin');
+});
+
 Route::get('/admin', 'AdminController@index');
 
 Route::post('/admin/registrar_cabana', 'AdminController@registrar_cabana');

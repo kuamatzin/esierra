@@ -70,7 +70,10 @@
                             <td>{{$reservacion->fecha_salida}}</td>
                             <td>{{$reservacion->cabana->nombre}}</td>
                             <td>
-                                <button type="button" class="btn btn-danger">Eliminar</button>
+                                {!! Form::open(array('class' => 'form-inline', 'method' => 'DELETE', 'url' => '/reservar')) !!}
+                                    {!! Form::hidden('id', $reservacion->id) !!}
+                                    {!! Form::submit('Eliminar', array('class' => 'btn btn-danger')) !!}
+                                {!! Form::close() !!}
                             </td>
                         </tr>
                         @endforeach
