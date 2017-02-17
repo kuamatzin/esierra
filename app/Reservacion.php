@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 class Reservacion extends Model
@@ -12,11 +13,18 @@ class Reservacion extends Model
 
     protected $dates = ['fecha_llegada', 'fecha_salida'];
 
-
     public function cabana()
     {
         return $this->belongsTo(Cabana::class, 'cabana_id');
     }
 
-    
+    public function getFechaLlegadaAttribute($value)
+    {
+        return Carbon::createFromFormat('Y-m-d H:i:s', $value)->toFormattedDateString();
+    }
+
+    public function getFechaSalidaAttribute($value)
+    {
+        return Carbon::createFromFormat('Y-m-d H:i:s', $value)->toFormattedDateString();
+    }
 }

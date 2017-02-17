@@ -39,6 +39,14 @@ Route::post('/reservar', function(Request $request){
     return response()->json(true, 200);
 });
 
+Route::post('/reservar/{id}/edit', function(Request $request){
+    $reservacion = Reservacion::findOrFail($request->id);
+    $reservacion->anticipo = $request->anticipo;
+    $reservacion->save();
+
+    return redirect()->back();
+});
+
 Route::delete('/reservar', function(Request $request){
     Reservacion::destroy($request->id);
 
