@@ -93,6 +93,11 @@ $style = [
                                         <p>Fecha Llegada: {{$fecha_llegada}}</p>
                                         <p>Fecha Salida: {{$fecha_salida}}</p>
                                         <br>
+
+                                        <p>Nota: Si cancelas o modificas la reservación hasta 2 días antes de la fecha de llegada, el establecimiento no efectuará cargos. Si cancelas o modificas la reservación fuera del plazo o no te presentas, el establecimineto cargará el 50% de la primera noche.</p>
+                                        <p>El establecimiento podrá cargar el 50% de la primera noche en cualquier momento después de efectuar la reservación</p>
+                                        <p>El precio de la habitación no incluye comidas</p>
+                                        <p>Pregunta por nuestras formas de pago</p>
                                         <br>
                                         <!-- Salutation -->
                                         <p style="{{ $style['paragraph'] }}">
