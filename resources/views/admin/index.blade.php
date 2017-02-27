@@ -59,7 +59,7 @@
                             <th>Email</th>
                             <th>Fecha Llegada</th>
                             <th>Fecha Salida</th>
-                            <th>Cabaña</th>
+                            <th>Tipo Cabaña</th>
                             <th>Anticipo</th>
                             <th>Guardar</th>
                             <th>Eliminar</th>
@@ -75,7 +75,7 @@
                             <td>{{$reservacion->email}}</td>
                             <td>{{$reservacion->fecha_llegada}}</td>
                             <td>{{$reservacion->fecha_salida}}</td>
-                            <td>{{$reservacion->cabana->nombre}}</td>
+                            <td>{{$reservacion->tipo}}</td>
                             <td>
                                 {!! Form::open(['url' => '/reservar/' . $reservacion->id . '/edit']) !!}
                                     <div class="form-group{{ $errors->has('anticipo') ? ' has-error' : '' }}">

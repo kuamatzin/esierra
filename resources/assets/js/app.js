@@ -37,7 +37,7 @@ $('#reservar').click(function(event) {
 $('#form_reservar').on('submit', function(e){
     e.preventDefault();
     var data = {
-        cabana_id: $('#cabana_select').val(),
+        tipo: $('#cabana_select').val(),
         nombre: $("[name='nombre']").val(),
         apellidos: $("[name='apellidos']").val(),
         telefono: $("[name='telefono']").val(),

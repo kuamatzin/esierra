@@ -8,7 +8,7 @@ class Cabana extends Model
 {
     protected $table = 'cabanas';
 
-    protected $fillable = ['nombre', 'ubicacion', 'tipo', 'disponibilidad'];
+    protected $fillable = ['nombre', 'ubicacion', 'tipo', 'disponibilidad', 'tipo'];
 
     public function getTipoAttribute($value)
     {

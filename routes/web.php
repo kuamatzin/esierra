@@ -19,8 +19,12 @@ Route::get('/disponibilidad', function(){
     $num_cabanas = Cabana::where('tipo', $cabana_type)->count();
 
     $reservaciones = Reservacion::whereBetween('fecha_llegada', [$llegada, $salida])->orWhereBetween('fecha_salida', [$llegada, $salida])->get();
-    
-    $disponibilidad = sizeof($reservaciones) > $num_cabanas ? false : true;
+
+    $reservaciones = $reservaciones->filter(function($reservacion, $key) use ($cabana_type){
+        return $reservacion->getOriginal('tipo') == $cabana_type ? $reservacion : null;
+    });
+
+    $disponibilidad = $reservaciones->count() >= $num_cabanas ? false : true;
 
     return response()->json($disponibilidad, 200);
 });
