@@ -82,7 +82,7 @@ $style = [
                                 <tr>
                                     <td style="{{ $fontFamily }} {{ $style['email-body_cell'] }}">
                                         <!-- Greeting -->
-                                        <p>Buenas tardes {{$nombre}} {{$apellidos}}, estamos muy contentos de te hayas dado la oportunidad para visitarnos y conozcas Entrada a la Sierra y la maravilla de los pueblos mágicos</p>
+                                        <p>Buenas tardes {{$nombre}} {{$apellidos}}, estamos muy contentos de te des la oportunidad para visitarnos y conozcas Entrada a la Sierra y la maravilla de los pueblos mágicos</p>
 
                                         <p>Aquí estan los detalles de tu reservación</p>
 
